@@ -42,3 +42,27 @@ body {
 #level-3 .carrots {
   grid-column: span 3;
 }
+
+#level-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#level-4 .peas {
+  grid-column: span 2;
+}
+#level-4 .onions {
+  grid-row: span 2;
+}
+#level-4 .carrots {
+  grid-row: 1;
+  grid-column: 4;
+  grid-row: span 2;
+}
+#level-4 .tomatoes {
+  grid-row: 2;
+}
+#level-4 .lettuce {
+  grid-row: 2;
+}
